@@ -68,14 +68,13 @@ class StateLib {
         if(!parameter === " "){
             return;
         }
-        //let subArray = [];
+        let subArray = [];
         for (let i = 0; i < n; i++){
-
             for (let j = i+1; j <= n; j++){
-                console.log(parameter.substring (i, j));
-
+                subArray.push(parameter.substring(i,j));
            } 
-        }         
+        }  
+        console.log(subArray);       
     }
 
 }//End of Class
