@@ -49,13 +49,10 @@ class StateLib {
         });
     }
 
-    subSet(parameter, n){
-        if(!parameter === " "){
-            return;
-        }
+    subSet(parameter){
         let subArray = [];
-        for (let i = 0; i < n; i++){
-            for (let j = i+1; j <= n; j++){
+        for (let i = 0; i < parameter.length; i++){
+            for (let j = i+1; j <= parameter.length; j++){
                 subArray.push(parameter.substring(i,j));
            } 
         }  
@@ -66,4 +63,4 @@ class StateLib {
 
 let stateLib = new StateLib();
 stateLib.readStatus(library);
-stateLib.subSet("Temi", 4);
+stateLib.subSet("Temi");
