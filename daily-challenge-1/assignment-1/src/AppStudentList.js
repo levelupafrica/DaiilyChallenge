@@ -66,7 +66,7 @@ class AppStudentList extends Component {
     return  <div>
                 {
                     classRegister.map(function(student, index){
-                        return <h4>Name: {student.name}. Age: {student.age}. Hobbies: {student.hobby}</h4>
+                        return <h4>{++index}. Name: {student.name}. Age: {student.age}. Hobbies: {student.hobby}</h4>
                     })
                 }
             </div>;
