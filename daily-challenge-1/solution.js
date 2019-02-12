@@ -41,12 +41,45 @@ const library = [
 class StateLib {
 
     readStatus(theArray){
+        if(!Array.isArray(theArray)){
+            return;
+        }
         theArray.forEach(function(books, index){
             console.log(`Book ${++index}. ${books.readingStatus}`);
         });
     }
 
+    /**
+     *    var string = "geeksforgeeks"; 
+    a = string.substring(0, 4) 
+    b = string.substring(1, 6) 
+    c = string.substring(5) 
+    d = string.substring(0) 
+  
+    // Printing new string which are 
+    // the part of the given string 
+    document.write(a + "<br>"); 
+    document.write(b + "<br>"); 
+    document.write(c + "<br>"); 
+    document.write(d + "<br>"); 
+     */
+
+    subSet(parameter, n){
+        if(!parameter === " "){
+            return;
+        }
+        //let subArray = [];
+        for (let i = 0; i < n; i++){
+
+            for (let j = i+1; j <= n; j++){
+                console.log(parameter.substring (i, j));
+
+           } 
+        }         
+    }
 
 }//End of Class
+
 let stateLib = new StateLib();
 stateLib.readStatus(library);
+stateLib.subSet("defkawrf", 5);
