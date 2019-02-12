@@ -49,21 +49,6 @@ class StateLib {
         });
     }
 
-    /**
-     *    var string = "geeksforgeeks"; 
-    a = string.substring(0, 4) 
-    b = string.substring(1, 6) 
-    c = string.substring(5) 
-    d = string.substring(0) 
-  
-    // Printing new string which are 
-    // the part of the given string 
-    document.write(a + "<br>"); 
-    document.write(b + "<br>"); 
-    document.write(c + "<br>"); 
-    document.write(d + "<br>"); 
-     */
-
     subSet(parameter, n){
         if(!parameter === " "){
             return;
@@ -81,4 +66,4 @@ class StateLib {
 
 let stateLib = new StateLib();
 stateLib.readStatus(library);
-stateLib.subSet("defkawrf", 5);
+stateLib.subSet("Temi", 4);
