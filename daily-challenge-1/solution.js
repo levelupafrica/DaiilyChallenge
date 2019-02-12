@@ -50,17 +50,17 @@ class StateLib {
     }
 
     subSet(parameter){
-        let subArray = [];
+        let subSetArray = [];
         for (let i = 0; i < parameter.length; i++){
             for (let j = i+1; j <= parameter.length; j++){
-                subArray.push(parameter.substring(i,j));
+                subSetArray.push(parameter.substring(i,j));
            } 
         }  
-        console.log(subArray);       
+        console.log(subSetArray);       
     }
 
 }//End of Class
 
 let stateLib = new StateLib();
 stateLib.readStatus(library);
-stateLib.subSet("Temi");
+stateLib.subSet("maryrose");
