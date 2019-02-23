@@ -28,4 +28,4 @@ for(let j = 0; j < wordLength; j++){
     
     return vowelDerive;
 }
-checkVowel(["abcd", "eikr", "oufJ"]);
+checkVowel(["aqrst", "ukaei", "ffooo"]);
