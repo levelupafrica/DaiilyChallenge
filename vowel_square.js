@@ -15,4 +15,4 @@ function VowelSquare(strArr) {
 console.log(VowelSquare(["aqrst", "ukaei", "ffooo"])); 
 console.log(VowelSquare(["gg", "ff"])); 
 console.log(VowelSquare(["abcd", "eikr", "oufj"])); 
-console.log(VowelSquare(["aliu","tola","dapo","joye"]))
+console.log(VowelSquare(["aliu","tola","dapo","joye"]));
