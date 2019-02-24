@@ -1,0 +1,23 @@
+function LetterCapitalize(str) { 
+
+  // code goes here
+  let length = str.length;
+  let outputString = str[0].toUpperCase();
+  
+  for(let i = 1; i < length; i++){
+      const currentChar = str[i];
+      const previousChar = str[i-1];
+      if(previousChar === " "){
+          outputString += currentChar.toUpperCase();
+      }else{
+          outputString += currentChar;
+      }
+  }
+  
+  
+  return outputString; 
+         
+}
+   
+// keep this function call here 
+LetterCapitalize(readline());
