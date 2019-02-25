@@ -1,3 +1,6 @@
+//This function is use to determine if atleast 2x2 square composed 
+// entirely of vowels exists in a specific given matrix.
+// 2*2 matrix vowel determinant
 function checkVowel(vowelC) {
     // vowelC= ["abcd", "eikr", "oufJ"];
 console.log(vowelC);
