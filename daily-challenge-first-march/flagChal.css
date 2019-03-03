@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.fixed-size-triangle {
+    width: 0;
+    height: 0;
+    border: 100px solid #2B3252;
+    border-top: none;
+    border-left-color: #2B3252;
+    border-right-color: #FAD744;
+    margin: 0 auto;
+    margin-top: 50px;
+}
